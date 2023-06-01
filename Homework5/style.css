@@ -4,6 +4,7 @@ body{
 
 input{
     background-color: rgba(128, 128, 128, 0.467);
+    border: solid 1px transparent;
     color: white;
     font-size: 50px;
     height: 82px;
