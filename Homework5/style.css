@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+
+input{
+    background-color: rgba(128, 128, 128, 0.467);
+    border: solid 1px transparent;
+    color: white;
+    font-size: 50px;
+    height: 82px;
+    width: 314px;
+    text-align: end;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    font-size: 34px;
+    background-color: grey;
+    color: white;
+    border: solid 1px transparent;
+
+}
+
+button:active{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+#plus{
+    background-color: orange;
+}
+
+#plus:active{
+    background-color: rgb(206, 134, 0);
+}
+
+#minus{
+    background-color: orange;
+}
+
+#minus:active{
+    background-color: rgb(206, 134, 0);
+}
+
+#multiply{
+    background-color: orange;
+}
+
+#multiply:active{
+    background-color: rgb(206, 134, 0);
+}
+
+#divide{
+    background-color: orange;
+}
+
+#divide:active{
+    background-color: rgb(206, 134, 0);
+}
+
+#equal{
+    background-color: orange;
+}
+
+#zero{
+    width: 208px;
+}
+
+#equal:active{
+    background-color: rgb(206, 134, 0);
+}
+
+.calculator{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5%;
+}
