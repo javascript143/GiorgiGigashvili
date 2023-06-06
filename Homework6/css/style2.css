@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/6387808/pexels-photo-6387808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+h3{
+    text-align: center;
+}
+
+nav{
+padding-left: 200px;
+padding-right: 200px;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+}
+
+.inputcont{
+    text-align: center;
+}
+
+input{
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+button{
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+button:active{
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(115, 0, 0);
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.resultContainer p{
+    font-size: 200px;
+}
+
+footer{
+    text-align: center;
+}
