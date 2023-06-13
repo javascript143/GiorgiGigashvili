@@ -24,7 +24,7 @@ if(weatherForCityResponse1.current_weather.windspeed < 20){
     result.innerHTML = `
 <p> Temperature Of ${cityName} is ${weatherForCityResponse1.current_weather.temperature}</p>
 <p> wind speed is ${weatherForCityResponse1.current_weather.windspeed} KM/H</p>`
-document.body.style.background = "url(/Lowwind.mp4)";
+document.body.style.background = "url(/GiorgiGigashvili/Homework8/Lowwind.mp4)";
 document.body.style.backgroundPosition = "center";
 document.body.style.backgroundSize = "cover";
 document.body.style.zIndex = "-1";
@@ -32,7 +32,7 @@ document.body.style.zIndex = "-1";
     result.innerHTML = `
 <p> Temperature Of ${cityName} is ${weatherForCityResponse1.current_weather.temperature}</p>
 <p> wind speed is ${weatherForCityResponse1.current_weather.windspeed} KM/H</p>`
-document.body.style.background = "url(/Midwind.mp4)";
+document.body.style.background = "url(/GiorgiGigashvili/Homework8/Midwind.mp4)";
 document.body.style.backgroundPosition = "center";
 document.body.style.backgroundSize = "cover";
 document.body.style.zIndex = "-1";
@@ -40,7 +40,7 @@ document.body.style.zIndex = "-1";
     result.innerHTML = `
 <p> Temperature Of ${cityName} is ${weatherForCityResponse1.current_weather.temperature}</p>
 <p> wind speed is ${weatherForCityResponse1.current_weather.windspeed} KM/H</p>`
-document.body.style.background = "url(/Highwind.mp4)";
+document.body.style.background = "url(/GiorgiGigashvili/Homework8/Highwind.mp4)";
 document.body.style.backgroundPosition = "center";
 document.body.style.backgroundSize = "cover";
 document.body.style.zIndex = "-1";
