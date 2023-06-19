@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework9</title>
+<link rel="stylesheet" href="/Homework9/styles/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Registration</h1>
+    <form action="/Homework9/pages/index4.html">
+        <p>Name</p>
+        <input type="text" id="Name" placeholder="Enter Your Name" required>
+        <p>Surname</p>
+        <input type="text" id="Surname" placeholder="Enter Your Surname" required>
+        <p>Country</p>
+        <input id="Country" list="country" placeholder="Choose Your Country"  />
+        <datalist id="country">
+        <option value="Georgia">
+        <option value="United States">
+        <option value="Italy">
+        <option value="France">
+        <option value="Germany">
+        </datalist>
+        <p>Username</p>
+        <input type="text" id="Username" placeholder="Enter Your Username">
+        <p>Password</p>
+        <input type="password" id="Password" placeholder="Enter Your Password" required>
+        <br>
+        <br>
+        <button id="Button" onclick="registerNewUser()">Submit</button>
+    </form>
+</div>
+<script type="text/javascript" src="/Homework9/scripts/Script.js"></script>
+</body>
+</html>

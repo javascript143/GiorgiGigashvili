@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://wallpaperaccess.com/full/4893706.jpg);
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+
+.container input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffffc3;
+}
+
+.container button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 100px;
+    padding: 10px 5px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.container button:hover{
+    background-color: #bcbcbcba;
+    cursor: pointer;
+}
+
+.container button:active{
+    background-color: #7a7a7aba;
+}
+
