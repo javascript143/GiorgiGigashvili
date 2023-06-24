@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://wallpaperaccess.com/full/2314950.jpg);
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+
+.container h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #fff;
+}
+
+.container p{
+    font-size: 20px;
+    margin: 15px 0;
+    color: white;
+}
+
+.container input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffff2c;
+}
+
+.container input::placeholder{
+    color: white;
+}
+
+.container input:focus{
+    background-color: #ffffffba;
+}
+
+.container button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 100px;
+    padding: 10px 5px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.container button:hover{
+    cursor: pointer;
+    background-color: #d5d5d5;
+}
+
+.container button:active{
+    background-color: #858585;
+}
