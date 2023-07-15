@@ -1,0 +1,65 @@
+<html class="no-js" lang="">
+  <head>
+    <link rel="icon" type="image/png" href="/img/Untitled-3.png" >
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>GGone</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles/page3/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:700|Poppins"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+<header>
+    <nav>
+        <a href="/index.html"><img src="/img/Untitled-3.png" alt=""></a>
+        <a href="/index.html" class="button">Home</a>
+        <a href="/pages/AboutUs.html" class="button">About Us</a>
+        <a href="/pages/signIn.html" class="button">Sign In</a>
+        <a href="/pages/Registration.html" class="button">Register</a>
+      </nav>
+</header>
+
+    <div class="container">
+      <div class="title">Registration</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Name</span>
+              <input id="fullName" type="text" placeholder="Enter your name" pattern="^[A-Za-z]+$" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Username</span>
+          <input id="username" type="text" placeholder="Enter your username" pattern="[a-zA-Z0-9_]{3,16}$" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input id="email" type="text" placeholder="Enter your email" onchange="emailChecker()" required>
+              <p id="emailResult"></p>
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+          <input id="phoneNumber" type="text" placeholder="Enter your number" onchange="numberChecker()" required>
+              <p id="numberResult"></p>
+            </div>
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input id="password" type="password" placeholder="Enter your password" onchange="passwordChecker()" required>
+              <p id="passwordResult"></p>
+            </div>
+           </div>
+         
+            <div class="button">
+            <input onclick="handleRegistration()" type="submit" value="Register">
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="/scripts/registration/regex.js"></script>
+  </body>
