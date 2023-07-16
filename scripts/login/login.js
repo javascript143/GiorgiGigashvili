@@ -50,7 +50,7 @@ function handleLogin() {
     };
 
     if (userExists) { 
-        window.location.href = '/pages/profile.html';
+        window.location.href = '/GiorgiGigashvili/pages/profile.html';
     }
     else {
         document.getElementById('signingResult').innerHTML = 'Username or password is incorrect';
