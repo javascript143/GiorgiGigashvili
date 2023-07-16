@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <link rel="icon" type="image/png" href="./img/Untitled-3.png" >
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>GGone</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/GiorgiGigashvili/styles/classpage/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:700|Poppins"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+  <main>
+    <section>
+      <nav>
+        <a href="/GiorgiGigashvili/index.html"><img src="/GiorgiGigashvili/img/Untitled-3.png" alt=""></a>
+        <a href="/GiorgiGigashvili/index.html" class="button">Home</a>
+        <a href="/GiorgiGigashvili/pages/AboutUs.html" class="button">About Us</a>
+        <a href="/GiorgiGigashvili/pages/classes.html" class="button">Your Classes</a>
+        <a href="/GiorgiGigashvili/pages/signIn.html" class="button" onclick="removeTokens()">Sign Out</a>
+      </nav>
+      <div class="container">
+        <img src="/GiorgiGigashvili/img/pexels-leon-ardho-1552242.jpg" class="bg1" alt="" />
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    
+      <div class="wrapper">
+        <div class="card front-face">
+           <img src="/GiorgiGigashvili/img/pexels-koolshooters-6246244.jpg">
+        </div>
+        <div class="card back-face">
+           <img src="/GiorgiGigashvili/img/pexels-koolshooters-6246244.jpg">
+           <div class="info">
+              <div class="title">
+                Pilates
+              </div>
+              <p>
+            Dramatically transform the way your body feels and performs. Flowing through a series of exercises rooted in the original work of Joseph Pilates you will increase strength and improve flexibility.
+              </p>
+           </div>  
+        </div>
+     </div>
+
+     <div class="wrapper1">
+      <div class="card1 front-face1">
+         <img src="/GiorgiGigashvili/img/pexels-nick-wehrli-5345858.jpg">
+      </div>
+      <div class="card1 back-face1">
+         <img src="/GiorgiGigashvili/img/pexels-nick-wehrli-5345858.jpg">
+         <div class="info1">
+            <div class="title">
+              Yoga
+            </div>
+            <p>
+              A vigorous, dynamic, physically and spiritually energizing form of Yoga that sculpts, hones and tones every muscle in the body. Includes various elements of many different Yoga styles.
+            </p>
+         </div>  
+      </div>
+   </div>
+
+   <div class="wrapper2">
+    <div class="card2 front-face2">
+       <img src="/GiorgiGigashvili/img/pexels-heloisa-freitas-1608099.jpg">
+    </div>
+    <div class="card2 back-face2">
+       <img src="/GiorgiGigashvili/img/pexels-heloisa-freitas-1608099.jpg">
+       <div class="info">
+          <div class="title">
+            Fitness Mix
+          </div>
+          <p>
+            This high-intensity metabolic conditioning workout taxes all three energy systems and acts like a fat-incinerator to ensure results that leave you fit and motivated for the demands of your life.
+          </p>
+       </div>  
+    </div>
+ </div>
+  
+
+
+
+    <div class="apicontainer">
+      
+      <h2>To See Which Class Suits Your Weather Conditions Most Please Enter Location</h2>
+          <input id="cityName" type="text">
+          <br>
+          <button type="submit" id="submitData" onclick="resolveWeatherInfo()">Submit</button>
+          <br>
+          <div id="result"></div>
+    </div>
+  </main>
+  <footer>
+        <ul class="socials">
+         <li><a href=""><i class="fa fa-facebook"></i></a></li>
+         <li><a href=""><i class="fa fa-instagram"></i></a></li>
+         <li><a href=""><i class="fa fa-twitter"></i></a></li>
+     </ul>
+    </div>
+    <div class="footer-bottom">
+     <p>copyright &copy;2023 GGONE designed by <span>Giorgi Gigashvili</span></p>
+    </div>
+ </footer>
+ 
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/GiorgiGigashvili/scripts/classpage/logout.js"></script>
+    <script src="/GiorgiGigashvili/scripts/classpage/weatherAPI.js"></script>
+  </body>
+</html>

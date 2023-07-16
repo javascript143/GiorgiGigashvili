@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(/GiorgiGigashvili/img/pexels-scott-webb-28054.jpg);
+  background-size: cover;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  padding: 3rem 5rem;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+}
+
+nav img{
+  width: 150px;
+}
+
+.button{
+  margin: 10px;
+  text-decoration: none;
+}
+
+.slideshow-container {
+  max-width: 850px;
+  position: absolute;
+  top: 15%;
+  left: 6%;
+  
+}
+
+.myPictures{
+  display: none;
+}
+
+.previous, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 18px;
+  margin-top: -25px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  font-size: 48px;
+  transition: 0.6s ease;
+  border-radius: 0 4px 4px 0;
+  user-select: none;
+}
+
+.next{
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+.previous:hover, .next:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.textNumber{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot{
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 4px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activeDot, .dot:hover {
+  background-color: #acacac;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: 0.3}
+  to {opacity: 1}
+}
+
+.text-container{
+  max-width: 400px;
+  color: white;
+  position: absolute;
+  top: 13.5%;
+  right: 3%;
+  line-height: 3rem;
+}
+
+
+footer{
+  position: absolute;
+  background: rgb(255, 255, 255);
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.socials{
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px;
+
+}
+
+.socials li{
+  margin: 0 50px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.socials a i{
+  font-size: 30px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  color: black;
+
+}
+
+.socials a:hover i{
+  color: red;
+}
+
+#fs{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+#fs:hover{
+  color: red;
+}
+
+#fr{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+#fr:hover{
+  color: red;
+}
+
+.footer-bottom{
+  background-color: red;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+
+}
+
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: 0.7;
+  font-weight: 400;
+}
